@@ -1,3 +1,4 @@
+import java.util.StringJoiner;
 
 public class Programmer  extends Person {
      private String companyName;
@@ -16,4 +17,9 @@ public class Programmer  extends Person {
     }
 
 
+    @Override
+    public String toString() {
+        return super.toString() +
+                "companyName='" + companyName + '}';
+    }
 }

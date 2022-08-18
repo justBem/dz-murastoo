@@ -1,3 +1,5 @@
+
+
 public class Dancer  extends Person {
     private String groupName;
 
@@ -16,6 +18,8 @@ public class Dancer  extends Person {
 
     @Override
     public String toString() {
-        return super.toString();
+        return   super.toString()+
+                "groupName='" + groupName + '\'' +
+                "} " ;
     }
 }

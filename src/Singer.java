@@ -17,8 +17,13 @@ public class Singer extends Person {
         System.out.println("Igraet na komuze");
     }
 
-
+    @Override
+    public String toString() {
+        return  super.toString()+
+                "bandName='" + bandName + '\'' +
+                "} " ;
     }
+}
 
 
 

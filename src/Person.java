@@ -14,24 +14,24 @@ public class Person {
         return designation;
     }
 
-   public  void learn(){
-       System.out.println("Kajdyi moment novoe");
+   public  String  learn(){
+       return "Kajdyi moment novoe";
 
     }
-   public  void walk(){
-       System.out.println("Kajdyi den xodit na rabotu");
+   public  String  walk(){
+        return "Kajdyi den xodit na rabotu";
 
     }
-    void eat(){
-        System.out.println("Kajdyi den obedaet v ofise");
+    public   String  eat(){
+        return "Kajdyi den obedaet v ofise";
 
     }
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Person {" +
                 "name='" + name + '\'' +
-                ", designation='" + designation + '\'' +
-                '}';
+                ", designation='" + designation + '\'' ;
     }
 }
+
